@@ -1,7 +1,7 @@
 
-JAR File link : https://drive.google.com/drive/folders/1AVFEe8iKd5lqPWtXwhbgkoGpwkvaJtOp?usp=sharing
+# PROCESS -2
 
-# Spring Boot Assignment – JAR + Docker Setup
+### Spring Boot Assignment – JAR + Docker Setup
 
 In this approach we can run it easily using Docker without needing to install Java or Maven.
 
@@ -34,15 +34,15 @@ You can download both from here:
 
 1. **Extract the ZIP** (or place the `.jar` and `Dockerfile` in the same folder)
 
-2. **Open terminal** in that folder and build the Docker image:
+2. **Open terminal** in that folder and build the Docker image (This may take some time):
   
-   docker build -t spring-boot-pothi-sse-app .
+ ```  docker build -t spring-boot-pothi-sse-app .   ```
 
 3. To run Task 1 (default profile) use :
 
-   docker run spring-boot-pothi-sse-app
+  ``` docker run spring-boot-pothi-sse-app  ```
 
 4. To run Task 2 use : 
 
-   docker run spring-boot-pothi-sse-app --spring.profiles.active=tasktwo
+  ``` docker run spring-boot-pothi-sse-app --spring.profiles.active=tasktwo  ```
  
