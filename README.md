@@ -1,4 +1,4 @@
-# Spring Boot Assignment – Source Code Setup
+# Assignment
 
 ### INSTALLATION AND SETUP GUIDES :
 
