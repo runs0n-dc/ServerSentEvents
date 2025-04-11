@@ -36,7 +36,7 @@ Make sure the following are installed:
     ```mvn spring-boot:run```
    
      TO RUN TASK 2 use: 
-     ``` mvn spring-boot:run -Dspring-boot.run.profiles=tasktwo```
+     ``` mvn spring-boot:run "-Dspring-boot.run.profiles=tasktwo" ```
 
 # PROCESS - 2
 
