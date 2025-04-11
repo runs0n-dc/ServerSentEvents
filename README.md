@@ -1,5 +1,44 @@
+# Spring Boot Assignment – Source Code Setup
 
-# PROCESS -2
+
+
+# PROCESS - 1
+
+If you have Java and Maven installed, you can run it directly from the source code.
+
+---
+
+## 🔧 Prerequisites
+
+Make sure the following are installed:
+
+- **Java JDK 23 or above**
+- **Maven**
+- (Optional) **IntelliJ IDEA** or any other Java IDE
+
+---
+
+## 🚀 Installation & Setup Guide
+INSTALLATION AND SETUP GUIDES :
+
+**A. If you have Maven and Java JDK 23 or above already installed  (Follow process 1)
+
+B . If you want to only run the application jar and verify the output (Follow process 2) **
+
+1. **Clone the Repository**  
+   Clone this repo or download it as a ZIP and extract it:
+  
+2. **Use Maven to resolve dependencies and build the project**
+   ```mvn clean install```
+
+3. **You can run the application with different Spring profiles depending on the task**
+     TO RUN TASK 1 use: 
+    ```mvn spring-boot:run```
+   
+     TO RUN TASK 2 use: 
+     ``` mvn spring-boot:run -Dspring-boot.run.profiles=tasktwo```
+
+# PROCESS - 2
 
 ### Spring Boot Assignment – JAR + Docker Setup
 
