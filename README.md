@@ -63,7 +63,7 @@ In this approach we can run it easily using Docker without needing to install Ja
 You can download both from here:
 
 🔗 [Download ZIP with JAR + Dockerfile] :
-    ** https://drive.google.com/drive/folders/1AVFEe8iKd5lqPWtXwhbgkoGpwkvaJtOp?usp=sharing
+     https://drive.google.com/drive/folders/1AVFEe8iKd5lqPWtXwhbgkoGpwkvaJtOp?usp=sharing
 
 ---
 
