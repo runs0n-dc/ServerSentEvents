@@ -1,5 +1,10 @@
 # Spring Boot Assignment – Source Code Setup
 
+### INSTALLATION AND SETUP GUIDES :
+
+**A. If you have Maven and Java JDK 23 or above already installed  (Follow process 1)**
+
+**B . If you want to only run the application jar and verify the output (Follow process 2)**
 
 
 # PROCESS - 1
@@ -17,13 +22,6 @@ Make sure the following are installed:
 - (Optional) **IntelliJ IDEA** or any other Java IDE
 
 ---
-
-## 🚀 Installation & Setup Guide
-INSTALLATION AND SETUP GUIDES :
-
-**A. If you have Maven and Java JDK 23 or above already installed  (Follow process 1)
-
-B . If you want to only run the application jar and verify the output (Follow process 2) **
 
 1. **Clone the Repository**  
    Clone this repo or download it as a ZIP and extract it:
