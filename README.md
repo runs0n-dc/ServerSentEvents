@@ -3,13 +3,11 @@
 
 ### Spring Boot Assignment – JAR + Docker Setup
 
-In this approach we can run it easily using Docker without needing to install Java or Maven.
+In this approach we can run it easily using Docker without needing to install Java or Maven. This method uses Docker to run the pre-built JAR file.
 
 ---
 
-## 🚀 Quick Start (No Java or Maven Required)
-
-This method uses Docker to run the pre-built JAR file.
+#### 🚀 Quick Start (No Java or Maven Required)
 ---
 
 ✅ Prerequisites
