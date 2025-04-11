@@ -26,8 +26,8 @@ public class Task1 {
     @Scheduled(initialDelay=60000,fixedRate = 60000)
     public void generateReport() {
         System.out.println("Generating report");
-        bufferArgs.setCounter(bufferArgs.getCounter()+1);
         List<WikiChangeEvent> snapshot = new ArrayList<>(bufferArgs.getBuffer());
+        bufferArgs.getBuffer().clear();
         outputFunctions.DomainReportDisplay(snapshot);
     }
 }

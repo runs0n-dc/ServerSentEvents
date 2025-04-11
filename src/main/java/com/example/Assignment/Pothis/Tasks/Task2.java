@@ -30,9 +30,9 @@ public class Task2 {
         bufferArgs.getBuffer2().put(bufferArgs.getCounter(), snapshot);
         bufferArgs.getBuffer().clear();
         //clear the map if size is greater than five
-        if(bufferArgs.getBuffer2().size() >= 5) {
-            bufferArgs.setDelIndex(bufferArgs.getDelIndex() + 1);
+        if(bufferArgs.getBuffer2().size() > 5) {
             bufferArgs.getBuffer2().remove(bufferArgs.getDelIndex());
+            bufferArgs.setDelIndex(bufferArgs.getDelIndex() + 1);
         }
         //combine all the data snapshot in the map
         List<WikiChangeEvent> combinedList = new ArrayList<>();
