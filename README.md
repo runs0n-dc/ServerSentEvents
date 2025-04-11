@@ -24,12 +24,14 @@ Make sure the following are installed:
 ---
 
 1. **Clone the Repository**  
+
    Clone this repo or download it as a ZIP and extract it:
   
 2. **Use Maven to resolve dependencies and build the project**
    ```mvn clean install```
 
 3. **You can run the application with different Spring profiles depending on the task**
+
      TO RUN TASK 1 use: 
     ```mvn spring-boot:run```
    
